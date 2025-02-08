@@ -58,26 +58,8 @@
 
 
 
-@media (max-width: 480px) {
 
-    .son-text,
-    .son-img {
-        width: 100%;
-    }
-
-    .proyects {
-        width: 100%;
-        box-shadow: none;
-    }
-}
-
-
-
-
-
-
-
-/* * Form*/
+/* * Formulario*/
 
 .form-container {
     width: 400px;
@@ -94,6 +76,7 @@
     box-sizing: border-box;
     border-radius: 0;
 }
+
 
 .form-container button:active {
     scale: 0.95;
@@ -186,12 +169,13 @@
 
 .form-container .form-submit-btn:hover {
     background-color: #5E2E8E;
-    
+
 }
 
 
 
 .form-container .form-submit-btn:active {
-    background-color: #A685D9; /* Morado pastel */
+    background-color: #A685D9;
+    /* Morado pastel */
     transform: rotate(-5deg) scale(0.95);
 }

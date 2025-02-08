@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -13,16 +15,19 @@ body {
     background-color: #1f2028;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
-    padding-top: 90px; /* Evitar que el contenido se superponga con la navbar fija */
+    padding-top: 90px;
+    /* Evitar que el contenido se superponga con la navbar fija */
+
 }
 
-html, body {
+html,
+body {
     height: 100%;
-    margin: 0; 
+    margin: 0;
 }
 
 .content {
-    flex: 1; 
+    flex: 1;
     padding: 20px;
 }
 
@@ -31,7 +36,7 @@ html, body {
     color: white;
     text-align: center;
     padding: 10px 0;
-    width: 100%; 
+    width: 100%;
 }
 
 main {
@@ -45,12 +50,14 @@ main {
 
 .container-father {
     display: flex;
-    flex-wrap: wrap; /* Permite que los hijos se adapten al ancho */
+    flex-wrap: wrap;
+    /* Permite que los hijos se adapten al ancho */
     justify-content: space-around;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    gap: 20px; 
+    gap: 20px;
+    padding-top: 90px;
 }
 
 .proyects {
@@ -59,13 +66,27 @@ main {
     background-color: rgba(0, 255, 255, 0);
     width: 360px;
     height: auto;
-    box-shadow: 20px 20px 30px rgba(255, 255, 255, 0.226); 
+    /* box-shadow: 20px 20px 30px rgba(255, 255, 255, 0.226);  */
+    border: 3px solid #3A1C5D;
+    border-radius: 0px;
+    background: #1f2028;
+    box-shadow: -29px -29px 30px #0c0d10,
+        29px 29px 30px #323340;
+
 }
+
+.proyects-image:hover {
+    transform: scale(105%);
+    transition: 0.2s linear;
+  }
+
+
 
 .proyects-image img {
     width: 100%;
     object-fit: cover;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .proyects-info {
@@ -83,12 +104,13 @@ main {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.btn-proyects:hover {    
+.btn-proyects:hover {
     background-color: #5E2E8E;
 }
 
 .btn-proyects:active {
-    background-color: #A685D9; /* Morado pastel */
+    background-color: #A685D9;
+    /* Morado pastel */
     transform: rotate(-5deg) scale(0.95);
 }
 
@@ -124,14 +146,40 @@ main {
 
 .icon {
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 3rem;
     cursor: pointer;
+    
 }
 
 .icon i {
     margin: 5px;
     color: #ffffff;
+    padding: 15px;
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+
+    animation: cambiarColor 15s infinite;
+ 
+
 }
+
+.icon:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    
+}
+
+.icon i:hover{
+    background-color: #3A1C5D;
+
+}
+
+
+
+
+
+
 
 .image {
     width: 100%;
@@ -139,34 +187,15 @@ main {
     height: auto;
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
 }
 
 .image img {
-    border: 2px solid white;
+    border: 3px solid #3A1C5D;
     width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 50%;
-}
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .container-father {
-        flex-direction: column;
-    }
-    .content-section {
-        margin: 0;
-        width: 100%;
-    }
-}
 
-@media (max-width: 480px) {
-    .son-text, .son-img {
-        width: 100%;
-    }
-    .proyects {
-        width: 100%;
-        box-shadow: none;
-    }
 }

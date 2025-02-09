@@ -17,6 +17,9 @@ body {
     margin: 0;
     padding-top: 90px;
     /* Evitar que el contenido se superponga con la navbar fija */
+    
+ 
+    
 
 }
 
@@ -24,6 +27,7 @@ html,
 body {
     height: 100%;
     margin: 0;
+
 }
 
 .content {
@@ -178,9 +182,6 @@ main {
 
 
 
-
-
-
 .image {
     width: 100%;
     max-width: 500px;
@@ -198,4 +199,35 @@ main {
     border-radius: 50%;
 
 
+}
+
+
+
+
+
+
+.animated {
+    background:#ccc;
+    margin:200px 0;
+}
+.animation-in {
+    animation-duration: 1s;
+    animation-name: global-animation;
+    animation-fill-mode: forwards;
+}
+.animated {
+    opacity: 0;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+@keyframes global-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(32px) perspective(300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) perspective(0);
+  }
 }

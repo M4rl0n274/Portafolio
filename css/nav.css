@@ -26,6 +26,8 @@ body {
     display: flex;
     justify-content: space-between;
 
+    z-index: 9999;
+
 
 }
 
@@ -42,6 +44,9 @@ body {
     z-index: -1;
 
 }
+
+
+
 
 .header::after {
     content: "";

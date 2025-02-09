@@ -24,17 +24,3 @@ function Linkedin(){
 
 
 
-$(document).ready(function() {
-    $(document).scroll(function(){
-        let windowHeight = $(window).height()*0.8;
-        // Recorrer cada elemento
-        $('.animated').each(function(i) {
-            // Analizar posición del elemento actual
-            if($(document).scrollTop() >= $(this).offset().top - windowHeight) {
-                $(this).addClass('animation-in');
-            } else {
-                $(this).removeClass('animation-in');
-            }
-        });
-    });
-});

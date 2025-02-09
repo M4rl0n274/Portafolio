@@ -64,6 +64,8 @@ main {
     padding-top: 90px;
 }
 
+.container-father 
+
 .proyects {
     flex-grow: 0;
     color: white;
@@ -125,6 +127,27 @@ main {
 
     font-size: 2.5rem;
 }
+
+.hr-tititles{
+    border-bottom: 1px solid white;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h2 {
+    font-size: 2rem; /* Tamaño para PC */
+    text-align: center;
+}
+
+p {
+    font-size: 1rem; /* Tamaño para PC */
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
 
 .son-text {
     flex: 1 1 300px;

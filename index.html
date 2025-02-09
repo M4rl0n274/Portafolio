@@ -15,31 +15,25 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <title>Marlon</title>
+    <link rel="icon" href="./assets/icon/icon.png" type="image/x-icon">
 </head>
 
 <body>
-
     <header class="header">
         <a href="#" class="logo">Marlon</a>
-
         <input type="checkbox" id="check">
-
         <label for="check" class="icons">
             <i class='bx bx-menu' id="menu-icon"></i>
             <i class='bx bx-x' id="close-icon"></i>
-
         </label>
-
         <nav class="navbar">
             <a href="#" style="--i:0">Inicio</a>
-            <a href="#proyects" style="--i:1">Proyectos </a>
             <a href="#aboutMe" style="--i:2">Acerca de mi</a>
-            <a href="#" style="--i:3">CV</a>
+            <a href="#proyects" style="--i:1">Proyectos </a>
+            <a href="#" onclick="abrirPDF()" style="--i:3">CV</a>
             <a href="#contactMe" style="--i:4">contáctame</a>
         </nav>
     </header>
-
-
     <main>
 
         <body>
@@ -50,11 +44,9 @@
                         </h2>
                     </div>
                     <div class="son-img">
-                        <div class="image"><img src="./assets/img/lobo.jpg"></div>
-
-
-
-                        <div class="icon">
+                        <div class="image" data-aos="fade-up" data-aos-duration="500"><img src="./assets/img/lobo.jpg">
+                        </div>
+                        <div class="icon" data-aos="fade-up" data-aos-duration="500">
                             <i class='bx bx-book-alt' style='color:#ffffff' onclick="abrirPDF()"></i>
                             <i class='bx bxl-github' style='color:#ffffff' onclick="github()"></i>
                             <i class='bx bxl-linkedin' style='color:#ffffff' onclick="Linkedin()"></i></a>
@@ -66,20 +58,47 @@
             </section>
 
             <section class="content-section">
-                <h2 class="titles" id="proyects" data-aos="fade-up" data-aos-duration="500">Mis proyectos</h2>
+                <h2 class="titles" id="aboutMe" data-aos="fade-up" data-aos-duration="500">Acerca de mí
+                    <hr class="hr-tititles">
+                </h2>
                 <div class="container-father">
 
+                    <div class="son-img-about" data-aos="fade-down-right" data-aos-duration="500">
+                        <div class="image-about"><img src="./assets/img/lobo.jpg"></div>
+
+                        <div class="icon">
+                            <i class='bx bx-book-alt' style='color:#ffffff' onclick="abrirPDF()"></i>
+                            <i class='bx bxl-github' style='color:#ffffff' onclick="github()"></i>
+                            <i class='bx bxl-linkedin' style='color:#ffffff' onclick="Linkedin()"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="son-text-about" data-aos="fade-down-left" data-aos-duration="500">
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit, sed quia </p>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2 class="titles" id="proyects" data-aos="fade-up" data-aos-duration="500">Mis proyectos
+                    <hr class="hr-tititles">
+                </h2>
+                <div class="container-father">
                     <div class="proyects" data-aos="fade-down-right" data-aos-duration="500">
                         <div class="proyects-image">
                             <img src="./assets/img/lobo.jpg">
                         </div>
                         <div class="proyects-info">
                             <h3 class="titles-proyects">titulo</h3>
-                            <small>99/99/9999</small>
+                            <small>99/99/9999</small><br><br>
                             <p>
-                                lorem ipsu aksdjasokjdosad
-                                dsfjasiofndsakjf
-                                dsfaaoksnfdsa
+                                dsfaaoksnfdsaarchitecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                                quia voluptas sit
+                                aspernatur aut odit aut fugit, sed quia
                             </p>
                             <button class="btn-proyects">Ver más</button>
                         </div>
@@ -90,11 +109,11 @@
                         </div>
                         <div class="proyects-info">
                             <h3 class="titles-proyects">titulo</h3>
-                            <small>99/99/9999</small>
+                            <small>99/99/9999</small><br><br>
                             <p>
-                                lorem ipsu aksdjasokjdosad
-                                dsfjasiofndsakjf
-                                dsfaaoksnfdsa
+                                dsfaaoksnfdsaarchitecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                                quia voluptas sit
+                                aspernatur aut odit aut fugit, sed quia
                             </p>
                             <button class="btn-proyects">Ver más</button>
                         </div>
@@ -105,11 +124,11 @@
                         </div>
                         <div class="proyects-info">
                             <h3 class="titles-proyects">titulo</h3>
-                            <small>99/99/9999</small>
+                            <small>99/99/9999</small><br><br>
                             <p>
-                                lorem ipsu aksdjasokjdosad
-                                dsfjasiofndsakjf
-                                dsfaaoksnfdsa
+                                dsfaaoksnfdsaarchitecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                                quia voluptas sit
+                                aspernatur aut odit aut fugit, sed quia
                             </p>
                             <button class="btn-proyects">Ver más</button>
                         </div>
@@ -120,70 +139,41 @@
                         </div>
                         <div class="proyects-info">
                             <h3 class="titles-proyects">titulo</h3>
-                            <small>99/99/9999</small>
+                            <small>99/99/9999</small> <br><br>
                             <p>
-                                lorem ipsu aksdjasokjdosad
-                                dsfjasiofndsakjf
-                                dsfaaoksnfdsa
+                                dsfaaoksnfdsaarchitecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                                quia voluptas sit
+                                aspernatur aut odit aut fugit, sed quia
                             </p>
                             <button class="btn-proyects">Ver más</button>
                         </div>
                     </div>
-
-
-
-
-
-                </div>
-                </div>
-
-
-            </section>
-
-
-
-            <section class="content-section">
-                <h2 class="titles" id="aboutMe" data-aos="fade-up" data-aos-duration="500">Acerca de mí</h2>
-                <div class="container-father">
-
-                    <div class="son-img-about" data-aos="fade-down-right" data-aos-duration="500">
-                        <div class="image-about"><img src="./assets/img/lobo.jpg"></div>
-                        <div class="icon">
-
-                            <i class='bx bx-book-alt' style='color:#ffffff' onclick="abrirPDF()"></i>
-                            <i class='bx bxl-github' style='color:#ffffff' onclick="github()"></i>
-                            <i class='bx bxl-linkedin' style='color:#ffffff' onclick="Linkedin()"></i></a>
-                        </div>
-
-                    </div>
-                    <div class="son-text-about" data-aos="fade-down-left" data-aos-duration="500">
-                        <h2>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia </h2>
-                    </div>
                 </div>
                 </div>
             </section>
 
-
-
-
             <section class="content-section">
-                <h2 class="titles" id="contactMe" data-aos="fade-up" data-aos-duration="500">Contáctame</h2>
-                <div class="container-father">
+                <h2 class="titles" id="contactMe" data-aos="fade-up" data-aos-duration="500">Contáctame
+                    <hr class="hr-tititles">
+                </h2>
+                <div class="container-father-about">
 
                     <div class="son-text-about" data-aos="fade-down-right" data-aos-duration="500">
-                        <h2>Contactame </h2>
-                        <h2>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam,</h2>
-                       
-                      
-                    
+
+                        <ul>
+                            <li>Enviame un mensaje</li>
+                            <li>att:</li>
+                            <li>Marlon</li>
+                            <div class="icon">
+                                <i class='bx bx-book-alt' style='color:#ffffff' onclick="abrirPDF()"></i>
+                                <i class='bx bxl-github' style='color:#ffffff' onclick="github()"></i>
+                                <i class='bx bxl-linkedin' style='color:#ffffff' onclick="Linkedin()"></i></a>
+                            </div>
+                        </ul>
+
                     </div>
 
-
-                    <div class="form-container">
+                    <div class="form-container" data-aos="fade-down-left" data-aos-duration="500">
                         <form class="form" action="https://formspree.io/f/mgvozvgq" method="POST" id="form">
                             <div class="form-group">
                                 <label for="email">Ingresa tu Email</label>
@@ -200,10 +190,6 @@
 
                 </div>
 
-
-
-
-
             </section>
     </main>
 
@@ -216,7 +202,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
         AOS.init(); // Inicializa AOS
-        
     </script>
 </body>
 

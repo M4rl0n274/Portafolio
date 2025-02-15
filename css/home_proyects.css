@@ -12,14 +12,14 @@ html {
 }
 
 body {
-    background-color: #1f2028;
+    background-color: #000000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding-top: 90px;
     /* Evitar que el contenido se superponga con la navbar fija */
-    
- 
-    
+
+
+
 
 }
 
@@ -52,6 +52,19 @@ main {
     padding: 20px 0;
 }
 
+.content-section-skills {
+    padding: 20px 0;
+    background-color: #1313138e;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+
+
+
+
+
 .container-father {
     display: flex;
     flex-wrap: wrap;
@@ -61,10 +74,89 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     gap: 20px;
-    padding-top: 90px;
+    padding-top: 50px;
 }
 
-.container-father 
+
+
+.container-father-skills {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que los hijos se adapten al ancho */
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+
+
+}
+
+.container-father-skills img {
+    width: 12%;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    transition: transform 1s ease-in-out;
+    animation: scaleImages 12s infinite linear;
+    opacity: 0.8;
+
+}
+
+@keyframes scaleImages {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.9;
+    }
+
+    10% {
+        transform: scale(1.08);
+        opacity: 1;
+    }
+
+    20% {
+        transform: scale(1);
+        opacity: 0.9;
+    }
+
+    30% {
+        transform: scale(1.08);
+        opacity: 1;
+    }
+
+    40% {
+        transform: scale(1);
+        opacity: 0.9;
+    }
+
+    50% {
+        transform: scale(1.08);
+        opacity: 1;
+    }
+
+    60% {
+        transform: scale(1);
+        opacity: 0.9;
+    }
+
+    70% {
+        transform: scale(1.08);
+        opacity: 1;
+    }
+
+    80% {
+        transform: scale(1);
+        opacity: 0.9;
+    }
+
+    90% {
+        transform: scale(1.08);
+        opacity: 1;
+    }
+}
 
 .proyects {
     flex-grow: 0;
@@ -75,29 +167,39 @@ main {
     /* box-shadow: 20px 20px 30px rgba(255, 255, 255, 0.226);  */
     border: 3px solid #3A1C5D;
     border-radius: 0px;
-    background: #1f2028;
+    background: #000000;
     box-shadow: -29px -29px 30px #0c0d10,
         29px 29px 30px #323340;
+
+
 
 }
 
 .proyects-image:hover {
     transform: scale(105%);
     transition: 0.2s linear;
-  }
+}
 
 
 
 .proyects-image img {
     width: 100%;
     object-fit: cover;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     cursor: pointer;
 }
 
 .proyects-info {
     margin: 20px;
+
+
 }
+
+
+
+
+
+
 
 .btn-proyects {
     background-color: #3A1C5D;
@@ -122,29 +224,43 @@ main {
 
 .titles {
     color: rgb(250, 250, 250);
-    text-align: center;
-    margin: 60px;
+    text-align: left;
 
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    scroll-margin-top: 200px;
+
+
 }
 
-.hr-tititles{
-    border-bottom: 1px solid white;
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
+.hr-titles {
+    border-bottom: 1px solid #e81cff;
+    width: 15%;
+
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 
 h2 {
-    font-size: 2rem; /* Tamaño para PC */
+    font-size: 2rem;
+    /* Tamaño para PC */
     text-align: center;
+    color: white;
+
 }
 
 p {
-    font-size: 1rem; /* Tamaño para PC */
-    line-height: 1.5;
+    font-size: 1rem;
+    /* Tamaño para PC */
+    line-height: 1.6;
     text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    word-spacing: -1px;
+    letter-spacing: 0.5px;
 }
 
 
@@ -162,7 +278,7 @@ p {
 
 .son-img {
     flex: 1 1 300px;
-    max-width: 500px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,9 +289,9 @@ p {
 
 .icon {
     margin-top: 20px;
-    font-size: 3rem;
+    font-size: 2rem;
     cursor: pointer;
-    
+
 }
 
 .icon i {
@@ -187,17 +303,17 @@ p {
     border: 2px solid #ffffff;
 
     animation: cambiarColor 15s infinite;
- 
+
 
 }
 
-.icon:hover{
+.icon:hover {
     transition: 1s;
     transform: scale(1.1);
-    
+
 }
 
-.icon i:hover{
+.icon i:hover {
     background-color: #3A1C5D;
 
 }
@@ -215,7 +331,7 @@ p {
 }
 
 .image img {
-    border: 3px solid #3A1C5D;
+    border: 3px solid #3a1c5d00;
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -230,27 +346,31 @@ p {
 
 
 .animated {
-    background:#ccc;
-    margin:200px 0;
+    background: #ccc;
+    margin: 200px 0;
 }
+
 .animation-in {
     animation-duration: 1s;
     animation-name: global-animation;
     animation-fill-mode: forwards;
 }
+
 .animated {
     opacity: 0;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
 }
+
 @keyframes global-animation {
-  0% {
-    opacity: 0;
-    transform: translateY(32px) perspective(300px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0) perspective(0);
-  }
+    0% {
+        opacity: 0;
+        transform: translateY(32px) perspective(300px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) perspective(0);
+    }
 }

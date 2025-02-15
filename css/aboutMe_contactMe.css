@@ -20,7 +20,64 @@
     background-color: rgba(0, 255, 255, 0);
     border-radius: 8px;
     color: white;
+
+    align-self: flex-start;
+
 }
+
+.son-text-about-contact {
+    flex: 1 1 300px;
+    max-width: 400px;
+    /* text-align: center; */
+
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0);
+    border-radius: 8px;
+    color: white;
+
+    align-self: flex-start;
+
+
+}
+
+
+/** sobre mi configuracion texto*/
+
+.title-about {
+    font-size: 2rem;
+    /* Tamaño grande para destacar */
+    font-weight: bold;
+    color: #3498db;
+    scroll-margin-top: 200px;
+}
+
+.title-about span {
+    color: #e74c3c;
+    /* Otro color para resaltar el nombre */
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0px;
+    text-align: justify;
+    hyphens: auto;
+    word-spacing: -1px;
+}
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+    .title-about {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+}
+
+
 
 
 

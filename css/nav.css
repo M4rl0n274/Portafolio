@@ -99,3 +99,45 @@ body {
 }
 
 
+/** texto dinamico*/
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container span {
+    font-size: 2rem;
+
+}
+
+.text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 16ch;
+    /* Mantener espacio estable */
+    text-align: left;
+    font-size: 2rem;
+}
+
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

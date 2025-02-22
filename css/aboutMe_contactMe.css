@@ -95,22 +95,45 @@
 
 
 .image-about {
-    width: 100%;
-    max-width: 400px;
-    height: 200px;
-    border-radius: 20px;
+    width: 170%;
+    max-width: 450px;
+    /* border-radius: 40%; */
+    
+    height:100%;
     overflow: hidden;
-    margin-bottom: 20px;
-
+    /* margin-bottom: 20px; */
+    
+    
 }
 
 .image-about img {
+    
     border: 2px solid rgba(255, 255, 255, 0);
     width: 100%;
-    height: 200px;
+    height: 90%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius:50%;
     background-color: rgba(255, 0, 0, 0);
+}
+
+.about-me p {
+    /* background-color: #33333370; */
+             
+
+    font-size: 1rem;
+    /* Tamaño para PC */
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+   
+    word-spacing: -1px;
+    letter-spacing: 0.5px;
+    padding: 1.5rem;
+
+    border-left: 3px solid purple ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
 }
 
 
@@ -123,7 +146,7 @@
 
 .icon-about i {
     margin: 5px;
-    color: #ffffff;
+    color: #ff0000;
 }
 
 

@@ -114,7 +114,7 @@ body {
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
-    min-width: 16ch;
+    min-width: 20ch;
     /* Mantener espacio estable */
     text-align: left;
     font-size: 2rem;

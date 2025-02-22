@@ -218,3 +218,19 @@
 
 
 }
+
+/**Sonbre mi */
+
+@media (max-width: 1303px) {
+    .image-about {
+        width: auto;
+    }
+
+    .container-father.about {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+
+}

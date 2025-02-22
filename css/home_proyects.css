@@ -77,6 +77,8 @@ main {
     margin: 0 auto;
     gap: 20px;
     padding-top: 50px;
+    margin-top: 100px;
+    margin-bottom:100px ;
 }
 
 
@@ -207,12 +209,14 @@ main {
 .btn-proyects {
     background-color: #3A1C5D;
     color: white;
-    padding: 10px;
+    padding: 20px;
     border-radius: 40px;
     margin: 15px;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 0 auto;
 }
 
 .btn-proyects:hover {

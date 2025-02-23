@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/home_proyects.css">
     <link rel="stylesheet" href="../css/aboutMe_contactMe.css">
     <link rel="stylesheet" href="../css/Responsive.css">
+    <link rel="stylesheet" href="../css/Proyect.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -22,6 +23,7 @@
 <body>
     <header class="header" data-aos="fade-down" data-aos-duration="500">
         <a href="../index.html" class="logo"><img src="../assets/img/Logo/Logo2.png"></a>
+        <input type="checkbox" id="check"></a>
         <input type="checkbox" id="check">
         <label for="check" class="icons">
             <i class='bx bx-menu' id="menu-icon"></i>
@@ -70,50 +72,110 @@
             <li></li>
             <li></li>
             <li></li>
-
         </ul>
 
+
         <section class="content-section">
-            <h2 class="titles" id="proyects" data-aos="fade-up" data-aos-duration="1000">Portafolio
+            <h2 class="titles" id="aboutMe" data-aos="fade-up" data-aos-duration="500">Tech Haven
                 <!-- <hr class="hr-titles"> -->
             </h2>
-            <div class="container-father" data-aos="fade-up" data-aos-duration="1000">
-                <h1 class="title-Portafolio">Explora mis últimos<br>
-                    Proyectos Digitales.</h1>
+
+            <div class="container-father-proyect" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="title-Portafolio" style="color: white;">Tecnologias</h1>
+                <div class="container-father-skills-proyect">
+                    <img src="../assets/icon/html-5 (1).png">
+                    <img src="../assets/icon/css-3-1.png">
+                    <img src="../assets/icon/js.png">
+                    <img src="../assets/icon/php.png">
+                    <img src="../assets/icon/mysql.png">
+
+                </div>
+
+                <div class="son-img-proyect" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="../assets/img/tech-Haven.png" alt="">
+                </div>
+
+                <div class="son-text-proyect" data-aos="fade-up" data-aos-duration="1000">
+
+
+                    <p>
+                        Este proyecto es un sitio web tipo E-commerce que permite la gestión completa de usuarios y
+                        productos mediante una conexión a bases de datos. La interfaz es fluida e interactiva, lograda a
+                        través del uso de JavaScript, lo que proporciona una experiencia de usuario dinámica y amigable.
+
+                        El carrito de compras está implementado completamente en JavaScript, lo que permite a los
+                        usuarios añadir, actualizar y eliminar productos en tiempo real, mejorando la experiencia de
+                        compra sin necesidad de recargar la página.
+
+                        Por otro lado, la lógica del servidor está desarrollada en PHP, el cual se encarga de gestionar
+                        el registro de usuarios, así como la de productos. Esto incluye
+                        
+                    </p>
+                    <p>Se ha habilitado un acceso de prueba para explorar las funcionalidades del sistema: </p>
+                        <ul>
+                        <li>Usuario: prueba </li>
+                        <li>Contraseña: 123456 </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                                <strong>HTML/CSS</strong>: Para la estructura y diseño responsivo de la interfaz.
+                            </li>
+                            <li>
+                                <strong>JavaScript</strong>: Funcionalidades dinámicas del carrito y una experiencia de usuario interactiva.
+                            </li>
+                            <li>
+                                <strong>PHP</strong>: Lógica para conectar la base de datos y mostrar productos.
+                            </li>
+                            <li>
+                                <strong>MySQL</strong>: Almacenamiento y gestión de información de productos.
+                            </li>
+                        </ul>
+                        
+                    <h1>Link:
+                        <i class='bx bx-link-external' style='color:#ffffff'></i> <a href="tech-heaven.great-site.net"
+                            style="font-size: 1.5rem;">tech-heaven.great-site.net</a>
+                    </h1>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
 
             </div>
+        </section>
+
+
+
+
+        <section class="content-section">
+            <hr class="hr-titles">
             <div class="container-father">
-
-
-
-
-
-
-
-                <div class="proyects" data-aos="fade-down-right" data-aos-duration="1000">
+                <div class="proyects" data-aos="fade-down-right" data-aos-duration="500">
                     <div class="proyects-image">
                         <img src="../assets/img/tech-Haven.png">
                     </div>
                     <div class="proyects-info">
                         <h3 class="titles-proyects">Tech Haven</h3>
                         <small>03-2024 al 08-2024</small><br><br>
-                        <!-- <p>
-                            Proyecto tipo E-commerce con conexión a bases de datos para gestión de usuarios y productos.
-                            Interfaz fluida con JavaScript y acceso de prueba: Usuario: "prueba" y Contraseña: "123456".
-                        </p> -->
                         <div class="container-father-skills">
                             <img src="../assets/icon/html-5 (1).png">
                             <img src="../assets/icon/css-3-1.png">
                             <img src="../assets/icon/js.png">
                             <img src="../assets/icon/php.png">
                             <img src="../assets/icon/mysql.png">
-
                         </div>
-
                         <a href="../html/TechHaven.html"><button class="btn-proyects">Ver más</button></a>
                     </div>
                 </div>
-                <div class="proyects" data-aos="fade-up" data-aos-duration="1000">
+                <div class="proyects" data-aos="fade-up" data-aos-duration="500">
                     <div class="proyects-image">
                         <img src="../assets/img/El-zafiro-azul.png">
                     </div>
@@ -135,18 +197,13 @@
                         <a href="../html/ElZafiroAzul.html"><button class="btn-proyects">Ver más</button></a>
                     </div>
                 </div>
-                <div class="proyects" data-aos="fade-down-left" data-aos-duration="1000">
+                <div class="proyects" data-aos="fade-down-left" data-aos-duration="500">
                     <div class="proyects-image">
                         <img src="../assets/img/lobo.jpg">
                     </div>
                     <div class="proyects-info">
                         <h3 class="titles-proyects">titulo</h3>
                         <small>99/99/9999</small><br><br>
-                        <!-- <p>
-                            dsfaaoksnfdsaarchitecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                            quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia
-                        </p> -->
                         <div class="container-father-skills">
                             <img src="../assets/icon/html-5 (1).png">
                             <img src="../assets/icon/css-3-1.png">
@@ -158,32 +215,15 @@
                         <button class="btn-proyects">Ver más</button>
                     </div>
                 </div>
-                <div class="proyects" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="proyects-image">
-                        <img src="../assets/img/lobo.jpg">
-                    </div>
-                    <div class="proyects-info">
-                        <h3 class="titles-proyects">titulo</h3>
-                        <small>99/99/9999</small> <br><br>
-                        <!-- <p>
-                            dsfaaoksnfdsaarchitecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                            quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia
-                        </p> -->
-                        <div class="container-father-skills">
-                            <img src="../assets/icon/html-5 (1).png">
-                            <img src="../assets/icon/css-3-1.png">
-                            <img src="../assets/icon/js.png">
-                            <img src="../assets/icon/java (1).png">
-                            <img src="../assets/icon/mysql.png">
 
-                        </div>
-                        <button class="btn-proyects">Ver más</button>
-                    </div>
-                </div>
+
+            </div>
             </div>
             </div>
         </section>
+
+
+
 
 
 
@@ -193,13 +233,13 @@
 
     <footer class="footer">
 
-        <h2 data-aos="zoom-in-up">Marlon</h2>
-        <div class="icon" data-aos="zoom-in-down">
+        <h2>Marlon</h2>
+        <div class="icon">
             <i class='bx bx-book-alt' style='color:#ffffff' onclick="abrirPDF()"></i>
             <i class='bx bxl-github' style='color:#ffffff' onclick="github()"></i>
             <i class='bx bxl-linkedin' style='color:#ffffff' onclick="Linkedin()"></i></a>
         </div>
-<p  style="text-align: center;" >&copy; Copyright 2025, All Right Reserved</p>
+        <p style="text-align: center;">&copy; Copyright 2025, All Right Reserved</p>
 
     </footer>
 

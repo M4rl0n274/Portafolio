@@ -25,6 +25,7 @@ body {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     z-index: 9999;
 
@@ -80,6 +81,8 @@ body {
     text-decoration: none;
     font-weight: 500;
     margin-left: 2.5rem;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -91,7 +94,7 @@ body {
 
 .icons {
     position: absolute;
-    right: 5%;
+    right: 10%;
     font-size: 2.8rem;
     color: white;
     cursor: pointer;
@@ -107,6 +110,7 @@ body {
 
 .container span {
     font-size: 2rem;
+    
 
 }
 

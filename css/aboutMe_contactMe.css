@@ -42,7 +42,7 @@
 }
 
 
-/** sobre mi configuracion texto*/
+/** sobre mi, configuracion texto*/
 
 .title-about {
     font-size: 2rem;
@@ -93,6 +93,11 @@
     border-radius: 8px;
 }
 
+.son-img-about a { 
+    text-decoration: none;
+    
+
+}
 
 .image-about {
     width: 170%;

@@ -106,6 +106,7 @@ body {
 .container {
     display: flex;
     align-items: center;
+    width: auto;
 }
 
 .container span {
@@ -118,7 +119,7 @@ body {
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
-    min-width: 20ch;
+    /* min-width: 20ch; */
     /* Mantener espacio estable */
     text-align: left;
     font-size: 2rem;

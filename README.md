@@ -33,5 +33,5 @@ En la creación de este portafolio, he integrado herramientas de diferentes fuen
 
 ---
 
-📬 Contacto
+## 📬 Contacto
 Si tienes alguna duda o sugerencia, ¡no dudes en contactarme!

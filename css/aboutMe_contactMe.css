@@ -93,26 +93,26 @@
     border-radius: 8px;
 }
 
-.son-img-about a { 
+.son-img-about a {
     text-decoration: none;
-    
+
 
 }
 
 .image-about {
-    width: 170%;
+    /* width: ; */
     max-width: 450px;
     /* border-radius: 40%; */
-    
+
     height:100%;
     overflow: hidden;
     /* margin-bottom: 20px; */
-    
-    
+
+
 }
 
 .image-about img {
-    
+
     border: 2px solid rgba(255, 255, 255, 0);
     width: 100%;
     /* height: 90%; */
@@ -124,14 +124,14 @@
 
 .about-me p {
     /* background-color: #33333370; */
-             
+
 
     font-size: 1rem;
     /* Tamaño para PC */
     line-height: 1.6;
     text-align: justify;
     text-justify: inter-word;
-   
+
     word-spacing: -1px;
     letter-spacing: 0.5px;
     padding: 1.5rem;
@@ -295,7 +295,7 @@ ul {
     flex-direction: column;
     gap: 20px;
   }
-  
+
   .experiencia {
     background-color:  #1F2028;
     padding: 10px;
@@ -303,30 +303,30 @@ ul {
     color: white;
     max-width: 300px;
   }
-  
+
   .fecha {
     font-weight: bold;
   }
-  
+
   .titulo {
     color: #00bcd4;
     font-weight: bold;
   }
-  
+
   .rol {
     font-size: 0.9em;
     color: white;
   }
-  
+
   /* Alinear a la izquierda para los impares */
   .experiencia:nth-child(odd) {
     align-self: flex-start;
   }
-  
+
   /* Alinear a la derecha para los pares */
   .experiencia:nth-child(even) {
     align-self: flex-end;
   }
-  
-  
+
+
 

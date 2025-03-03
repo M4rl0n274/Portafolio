@@ -22,7 +22,7 @@ function Linkedin() {
 
 //* Animacion texto
 
-const words = ["Marlon","desarrollador FullStack" ];
+const words = ["Marlon","desarrollador Web" ];
 let index = 0;
 const textElement = document.querySelector(".text");
 

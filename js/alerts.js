@@ -6,7 +6,7 @@
 // });
 
 function abrirPDF() {
-  window.open("/assets/pdf/Template CV-Generation-Febrero2025_2.pdf", "_blank");
+  window.open("/assets/pdf/CV Marzo2025.pdf", "_blank");
 }
 
 function github() {

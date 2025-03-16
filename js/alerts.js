@@ -5,11 +5,11 @@
 //     alert('Formulario enviado con éxito');
 // });
 
-document.getElementById('btn-cv').addEventListener('click', abrirPDF);
+// document.getElementById('btn-cv').addEventListener('click', abrirPDF);
 
-function abrirPDF() {
-  window.open("../assets/pdf/CV_Marzo2025_2.pdf", "_blank");
-}
+// function abrirPDF() {
+//   window.open("../assets/pdf/CV_Marzo2025_2.pdf", "_blank");
+// }
 
 
 function abrirPDF() {
